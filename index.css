@@ -1,0 +1,485 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+header{
+    padding: 0px 70px;
+    text-transform: capitalize;
+    
+}
+.connect{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid lightgray;
+    padding: 10px 0px;
+}
+
+
+.con1 img{
+    height: 30px;
+    width: 30px;
+    
+    
+}
+.con1 span{
+    position: relative;
+    top: -8px;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid lightgray;
+    padding: 30px 70px 10px 70px;
+ 
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    background-color: #f6f6f6;
+    z-index: 1;
+    
+}
+.header span{
+    font-size: 30px;
+    font-weight: bolder;
+}
+.header ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    font-weight: 400;
+}
+.header ul li{
+    margin-right: 20px;
+    cursor: pointer;
+    padding: 5px 10px;
+    
+    
+}
+.header ul li a:hover{
+    
+    font-weight: bold;
+}
+
+.header ul li:last-child{
+    position: relative;
+    top: -15px;
+}
+
+
+.con2 i{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+a{
+    text-decoration: none;
+}
+a:active,a:link,a:visited{
+    color: black;
+}
+#villa-img{
+    height: 100vh;
+    background-image: url(Images/villaimg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+#villa-img section{
+    margin-left: 10%;
+    padding-top: 200px;
+    color: white;
+    
+
+    
+    
+}
+#villa-img section span{
+    display: inline-block;
+    background-color: white;
+    color: black;
+    padding: 8px 4px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+#villa-img section span strong{
+    color: #f8a297;
+}
+#villa-img section h1{
+    margin-bottom: 5px;
+    
+}
+.features{
+    height: 70vh;
+    padding:100px ;
+}
+.features-body{
+    
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 30px;
+    
+
+}
+.features-body section{
+    width: 33%;
+    height: 80%;
+    
+}
+.features-body :first-child>img{
+    width: 80%;
+    height: 90%;
+    
+    
+    
+}
+.feature-body-span-feat{
+    color: #faabb7;
+    margin-bottom: 50px;
+    display: inline-block;
+}
+.queries{
+    margin-top: 40px;
+}
+.queries a{
+    margin-bottom: 30px;
+    display: inline-block;
+    color: #faabb7;
+}
+#flatarea{
+    height: 30px;
+    width: 30px;
+}
+.areadata{
+    display: flex;
+    margin-bottom: 50px;
+    
+
+}
+.areadata>img{
+    margin-right: 20px;
+}
+.features-body section:last-child{
+    padding: 15px 40px;
+    box-shadow: 1px 1px 10px 1px lightgray;
+    border-radius: 10px;
+    transform: translate(80px);
+    
+}
+.video-tag{
+    height: 90vh;
+    background-image: url(Images/villaimg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 70px;
+    position: relative;
+    opacity: 0.7;
+    /* z-index: -1; */
+}
+.video-tag video{
+    width: 60%;
+    position: absolute;
+    top: 45%;
+    left: 20%;
+    animation: videoAnimy 5s;
+    transition: transform 1s;
+    transform: scale(0.6);
+    
+    
+ 
+}
+.video-tag video:hover{
+    transform: scale(1.01);
+    cursor: pointer;
+}
+@keyframes videoAnimy{
+    from{
+        left: 0%;
+           
+    }
+    to{
+        
+    }
+}
+.video-tag>strong{
+    display: block;
+    color: #f8a297;
+    
+    text-align: center;
+    padding-top: 50px;
+}
+.video-tag>h1{
+    color: white;
+    text-align: center;
+    padding: 0px 35%;
+    position: relative;
+    top: 50px;
+    margin-top: 15px;
+    
+    
+}
+.bestdeal-sec-1{
+    display: flex;
+    padding: 80px 60px;
+    
+    display: flex;
+    justify-content: space-between;
+}
+.bestdeal-sec-1>div>h1{
+    font-size: 40px;
+    margin-top: 30px;
+}
+.bestdeal{
+    height: 100vh;
+    
+    margin-top: 130px;
+}
+.Appartment-btn{
+    background-color: #f55528;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+}
+.Villa-btn,.PentHouse-btn{
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.three-btns{
+    position: relative;
+    top: 55px;
+}
+video{
+    
+}
+
+.bestdeal-sec-2{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 60px;
+}
+.bestdeal-sec-2-1,.bestdeal-sec-2-3{
+    width: 22%;
+    height: 300px;
+    
+    
+    border-radius: 3px;
+    padding: 20px;
+
+}
+.bestdeal-sec-2-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.bestdeal-sec-2-1 span{
+    display: block;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 20px;
+    
+}
+.bestdeal-sec-2-2{
+    width: 35%;
+    height: 100%;
+    
+}
+.bestdeal-sec-2-2 img{
+    width: 100%;
+    
+}
+.bestdeal-sec-2-1{
+    box-shadow: 1px 1px 10px 1px lightgray;
+
+}
+.bestdeal-sec-2-3 button{
+    margin: 20px 0px 20px 25px;
+    
+
+}
+.bestdeal-sec-2-3 p{
+    margin-top: 20px;
+}
+button{
+    cursor: pointer;
+    
+}
+.shedule-visit-btn{
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 20px;
+    margin-left: 10px;
+    width: 150px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.prop-sec1{
+    text-align: center;
+}
+.prop-sec1 span{
+    color: #f8a297;
+}
+.prop-sec1 h1{
+    padding: 0px 40%;
+    margin-top: 20px;
+}
+.prop-sec2>div{
+    
+    height: 400px;
+    width: 300px;
+    margin-bottom: 100px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 1px lightgray;
+    
+}
+.prop-sec2>div:hover{
+    box-shadow: 1px 1px 20px 1px lightgray;
+}
+.prop-sec2{
+    display: flex;
+    justify-content: space-between;
+    padding:  20px 100px;
+    
+}
+.prop-sec2 div img{
+    width: 100%;
+    border-radius: 10px;
+}
+.card-cnt{
+    padding-top: 20px;
+    
+    
+}
+.card1{
+    transition:transform 1s ;
+}
+.card1:hover{
+    cursor: pointer;
+    transform: scale(1.09);
+}
+.span1{
+    background-color: #faabb7;
+    border-radius: 5px;
+    padding: 5px 3px;
+    display: inline-block;
+    margin-right: 60px;
+
+}
+.span1+strong{
+    color: #f55528;
+
+}
+.card-cnt h3{
+    margin: 15px 0px;
+}
+.card-cnt>h3+span{
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+.card-cnt>button{
+    margin: 15px 50px;
+}
+.footer{
+    
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(Images/villaimg.jpeg) ;
+    
+}
+.footer-sec2{
+    
+    
+
+}
+.footer-sec1{
+    text-align: center;
+    
+    padding: 60px;
+}
+.footer-sec1 span{
+    color: #f8a297;
+    font-weight: bolder;
+    font-size: 20px;
+    
+}
+.footer-sec1 h1{
+    padding: 0px 36%;
+    color: white;
+    margin-top: 30px;
+}
+.map{
+    width: 50%;
+    border-radius: 10px;
+    margin-left: 10%;
+    position: relative;
+    top: 80px;
+    height: 400px;
+}
+form{
+    width: 25%;
+    
+    padding: 20px 40px;
+    position: relative;
+    top: -300px;
+    left: 63%;
+    background-color: white;
+    box-shadow: 1px 1px 10px 1px lightgray;
+    border-radius: 10px;
+
+}
+form label{
+    margin: 10px 0px;
+}
+form input{
+    display: block;
+    border: none;
+    padding: 7px 5px;
+    background-color: #f6f6f6;
+    border-radius: 10px;
+    margin: 10px 0px;
+    width: 100%;
+}
+
+form>button{
+    display: inline-block;
+    
+}
+.footer-sec2 section{
+    
+    
+    display: inline-block;
+    margin-right: 30px;
+    border: 1px solid;
+    padding: 26px 52px;
+}
+.contact-data{
+    position: relative;
+    top: 150px;
+    display: flex;
+}
+.contact-data section{
+    margin: 0px 30px;
+    padding: 26px 52px;
+    box-shadow: 1px 1px 30px 5px lightgray;
+    border-radius: 10px;
+    
+}
