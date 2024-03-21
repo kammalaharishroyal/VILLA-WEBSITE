@@ -191,7 +191,7 @@ a:active,a:link,a:visited{
     position: absolute;
     top: 45%;
     left: 20%;
-    animation: videoAnimy 3s;
+    animation: videoAnimy 3s 3s;
     transition: transform 1s;
     transform: scale(0.6);
     
