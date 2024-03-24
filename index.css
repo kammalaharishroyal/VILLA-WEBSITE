@@ -71,7 +71,57 @@ header{
     position: relative;
     top: -15px;
 }
-
+@media screen and (min-width:390px) and (max-width:600px){
+    .connect{
+        display: block;
+    }
+    .con1{
+        display: block;
+        font-size: 9px;
+        
+    }
+    .con2{
+        display: flex;
+    }
+    
+    .header{
+        background-color: #f55528;
+        color: white;
+        display: block;
+        padding: 0px;
+        width: 100%;
+        
+    }
+    .header ul{
+        font-size: small;
+       
+        background-color: white;
+        animation: header 2s;
+        width: 100%;
+        padding: 10px 0px;
+        
+        
+    }
+    .header ul li{
+        padding: 0;
+        margin: 0;
+    }
+    .header ul button{
+        padding: 0;
+        margin: 0;
+        width: fit-content;
+        background-color: transparent;
+        color: black;
+        position: relative;
+        top: 12px;
+    }
+    @keyframes header {
+        from{
+            left: -100%;
+        }
+        
+    }
+}
 
 .con2 i{
     display: inline-block;
